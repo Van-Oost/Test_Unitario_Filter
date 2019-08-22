@@ -1,11 +1,11 @@
 
-function filter(miArray) {
+function filtrarArray(miArray) {
     var arrayFiltrado = [];
-    for (i= 0; i < miArray.length; index++) {
+    for (i= 0; i < miArray.length; i++) {
         if (miArray[i]>5){
-            arrayFiltrado.push(number);
+            arrayFiltrado.push(miArray[i]);
         };
-    return arrayFiltrado;
     };
+    return arrayFiltrado;
 };
 
